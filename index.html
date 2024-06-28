@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample Web Page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+            *{
+        font-size: 40px;
+        font-weight:600;
+        font-family: "Times New Roman", Times, serif;
+        }
+        *
+
+
+        h1{
+            text-transform: uppercase;
+  	    text-align:center;
+	    color: green;
+        }
+        #video{
+            text-align: center;
+              color: red;
+        }
+        p{
+            color:green;  
+        }
+        
+        h2.table{
+            color:pink;
+        }
+    .first{
+		background-color:rgb(255, 99, 71);
+	}
+	.second{
+		background-color:rgba(255, 0, 71,0.5);
+	}
+	.third{
+		background-color:#ff00ff;
+	}
+	.fourth{
+		background-color:hsl(9, 100%, 64%);
+	}
+	.five{
+		background-color:hsla(50, 100%,64%,0.3);
+	}
+    .image{
+		background-image:  url("bird.jpg");
+		background-repeat:repeat-x;
+		width:500px;
+		height:500px;
+		
+	}
+    .box{
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    }
+    .style a:link {
+    color: pink;
+    }
+    .style a:hover {
+    color: red;
+    }
+   .style a:visited {
+    color: rgb(226, 13, 13);
+    }
+
+   .style p:active {
+    color: yellow;
+    } 
+    
+     </style>
+ 
+</head>
+<body>
+    <header>
+    <h1 class="table">THIS iS A HTML</h1>
+    <h2 id="table">Welcome to Our Website</h2>
+    <p id="video" >Tagline or brief description of your website.</p>
+        
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <article>
+<section>
+            <h2>Latest News</h2>
+            <p style="color:rgb(7, 244, 90);">Here you can find the latest updates and news about our company or industry.</p>
+            <audio controls>
+                <source src="audio_thapa.wav" type="audio/wav">
+              </audio>
+        </section>
+        <div>
+            <h2>Main Area</h2>
+             <p style="color:blue";>This is a  web page.</p> 
+            <img src="https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630" alt="Placeholder "/>
+        </div> 
+
+        <section>
+            <h2>Our Services</h2>
+            <p>Details about the services we offer.</p>
+            <section>
+                <h2>Services Section</h2>
+                <ul>
+                    <li>Service 1</li>
+                    <li>Service 2</li>
+                    <li>Service 3</li>
+                </ul>
+                <ol>
+                    <li>Service 1</li>
+                    <li>Service 2</li>
+                    <li>Service 3</li>
+                </ol>
+
+            </section>
+        </section>
+
+        <section>
+            <h2>Client Testimonials</h2>
+                <footer>John Doe, CEO of XYZ Company</footer>
+        </section>
+    </article>
+
+    <section>
+        <h2>Product Comparison Table</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Feature 1</th>
+                    <th>Feature 2</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Product A</td>
+                    <td>Yes</td>
+                    <td>No</td>
+                    <td>$100</td>
+                </tr>
+                <tr>
+                    <td>Product B</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>$150</td>
+                </tr>
+                <tr>
+                    <td>Product C</td>
+                    <td>No</td>
+                    <td>Yes</td>
+                    <td>$120</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+    <section>
+        <video controls>
+            <source src="./video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    <p class="first"> Home </p>
+	<p class="second"> About  </p>
+	<p class="third">Contact</p>
+	<p class="fourth">services</p>
+	<p class="five">login</p>
+    </section>
+    <section>
+        <div class="image">
+            <p>This page have bird</p>
+        </div>
+        
+    <div class="box">This text is the content of the box.</div>
+    <div class="style">
+    <p> for : <a href="https://www.google.com">www.google.com</a></p>  
+    </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </footer>
+</body>
+</html
